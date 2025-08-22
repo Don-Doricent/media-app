@@ -29,12 +29,14 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
+    background-color: gray;
 }
 
 .header-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-right: 10px;
 }
 
 .header-list {
@@ -42,5 +44,6 @@ header {
     display: flex;
     gap: 1rem;
     align-items: center;
+    margin: 10px;
 }
 
