@@ -1,0 +1,46 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 16px; 
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #f4f4f4;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  nav ul {
+    flex-direction: row; /* horizontal on tablets/desktops */
+  }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-list {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
